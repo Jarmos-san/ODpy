@@ -2,8 +2,8 @@
 import requests
 import json
 
-app_id = "2850e6d7"
-app_key = "581369a189dce54b015e254d4fc81edf"
+app_id = "1234567"
+app_key = "123467890asdfhjk"
 
 language = "en-gb"
 word_id = "Apple"
