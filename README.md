@@ -13,6 +13,14 @@ Follow the steps below to set up a quick development environment for testing loc
 3. Change directory into the local repository and run a virtual environment using the `python -m venv <MyVirtualEnvironmentName>`.
 4. Activate the virtual environment by running the `source <MyVirtualEnvironmentName>/bin/activate`.
 5. And then install the dependencies using pip by running `pip install -r requirements.txt`.
+6. Sign in to a [Developer Account](https://developer.oxforddicionaries.com/) to get your API credentials [here](https://developer.oxforddictionaries.com/admin/applications)
+7. Although it's highly preferred to set the API secret keys using the `export ID="<YouAppID>"` & `export KEY="<YourAppKey>"` for maintaining utmost security, a `config.ini` file can also be created manually with the following format.
+
+```ini
+[SECRET]
+ID="<YourAppID>"
+KEY="<YourAppKey>"
+```
 
 ## License
 
