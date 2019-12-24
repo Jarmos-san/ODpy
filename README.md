@@ -9,7 +9,7 @@ I haven't set out a long-term plan to build a full-blown Python library that cou
 Follow the steps below to set up a quick development environment for testing locally on your system.
 
 1. Check if you have Python3.7+ installed locally on your system using the `python --version` command.
-2. Clone the repository locally using the `git clone https://github.com/Jarmos-san/OD.py.git` command.
+2. Clone the repository locally using the `git clone https://github.com/Jarmos-san/ODpy.git` command.
 3. Change directory into the local repository and run a virtual environment using the `python -m venv <MyVirtualEnvironmentName>`.
 4. Activate the virtual environment by running the `source <MyVirtualEnvironmentName>/bin/activate`.
 5. And then install the dependencies using pip by running `pip install -r requirements.txt`.
