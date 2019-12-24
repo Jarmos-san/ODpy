@@ -1,16 +1,20 @@
 import configparser, os, json
 import requests
 
-config = configparser.ConfigParser()
-config.read('config.ini')
+if 'ID' and 'KEY' in os.environ:
+    ID = os.environ.get('ID')
+    KEY = os.environ.get('KEY')
+else:
+    config = configparser.ConfigParser()
+    config.read('config.ini')
 
-app_id = config.get('SECRET', 'ID')
-app_key = config.get('SECRET', 'KEY')
+    ID = config.get('SECRET', 'ID')
+    KEY = config.get('SECRET', 'KEY')
 
 language = "en-gb"
 word_id = "Apple"
- 
+  
 url = f"https://od-api.oxforddictionaries.com:443/api/v2/entries/{language}/{word_id.lower()}"
- 
-r = requests.get(url, headers={"app_id": app_id, "app_key": app_key}) 
+  
+r = requests.get(url, headers={"app_id": ID, "app_key": KEY})
 print(r.text)
