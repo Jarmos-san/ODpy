@@ -1,6 +1,6 @@
 # ODpy
 
-**The Project has been archived indefinitely until for notice due to the developer account being put behind a pay wall. I apologise for the inconvenience caused, if any. I was ambitious about the project but unfortunately I don't have the means to pay for the project yet as of now. Although unlikely, but I might come back to this project once again if/when I can afford to pay for it's use.**
+**The project has been ARCHIVED INDEFINITELY until for notice due to the developer account being put behind a pay wall. I apologise for the inconvenience caused, if any. I was ambitious about the project but unfortunately I don't have the means to pay for the project yet as of now. Although unlikely, but I might come back to this project once again if/when I can afford to pay for it's use.**
 
 A simple Python wrapper based on the latest [Oxford Dictionary API v2](https://api-blog.oxforddictionaries.com/2018/03/27/make-first-call-oxford-dictionaries-api/) written mainly as a resource for a project-based learning oppurtunity.
 
