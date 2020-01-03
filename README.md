@@ -1,5 +1,7 @@
 # ODpy
 
+**The Project has been archived indefinitely until for notice due to the developer account being put behind a pay wall. I apologise for the inconvenience caused, if any. I was ambitious about the project but unfortunately I don't have the means to pay for the project yet as of now. Although unlikely, but I might come back to this project once again if/when I can afford to pay for it's use.**
+
 A simple Python wrapper based on the latest [Oxford Dictionary API v2](https://api-blog.oxforddictionaries.com/2018/03/27/make-first-call-oxford-dictionaries-api/) written mainly as a resource for a project-based learning oppurtunity.
 
 I haven't set out a long-term plan to build a full-blown Python library that could be used by many but as of now it's more of an Open-Source project for anyone to contribute to regardless of, if they are learning programming in general or want to teach Python to someone. As such while going through the source-code it might look like it has a lot of uncessary comments but the idea behind it is for someone who is new to Python or programming to general, to go through and read each line of code & get a fair idea of what a specific block of function or a class is supposed to be doing.
